@@ -1,0 +1,7 @@
+# Shopify Theme Development Notes
+- shopify theme dev → Starts the local server.
+- shopify theme push --unpublished → Uploads theme without publishing.
+- git add . → Stages all changes for commit.
+- git commit -m "Updated theme.liquid" → Commits changes.
+- git push origin main → Pushes to GitHub.
+
