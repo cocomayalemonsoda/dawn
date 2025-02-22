@@ -27,3 +27,20 @@ Sections appear only when their template is called
 You can have multiple page templates with different layouts
 Blocks are only used inside sections
 TL;DR = "Too long; didn't read" (a quick summary of important details)
+
+
+Pages That Support JSON Templates
+You can create .json files for the following page types: ✅ index.json → Homepage
+✅ product.json → Product pages
+✅ collection.json → Collection pages
+✅ cart.json → Cart page
+✅ search.json → Search results page
+✅ page.json → Regular pages (e.g., About Us, Contact Us)
+✅ blog.json → Blog overview
+✅ article.json → Individual blog posts
+
+Pages That DO NOT Support JSON (Must Use .liquid)
+These pages require .liquid templates:
+❌ gift_card.liquid → Gift card pages
+❌ password.liquid → Password-protected page (if the store is locked)
+❌ checkout.liquid → Checkout page (Only Shopify Plus can modify this)
