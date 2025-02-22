@@ -1,7 +1,29 @@
-# Shopify Theme Development Notes
-- shopify theme dev → Starts the local server.
-- shopify theme push --unpublished → Uploads theme without publishing.
-- git add . → Stages all changes for commit.
-- git commit -m "Updated theme.liquid" → Commits changes.
-- git push origin main → Pushes to GitHub.
+Shopify Theme Development - Learning Progress
+1. Setting Up the Development Environment
+✅ Installed and set up VS Code for Shopify theme development
+✅ Forked and cloned the Dawn theme from GitHub
+✅ Created a new theme called "playful-pastel" and pushed it to Shopify
+✅ Set up Shopify CLI to preview and test themes locally
+✅ Practiced using Git for version control
 
+2. Git Commands Learned
+git clone <repo_url> → Clone a repository
+git add . → Stage all changes for commit
+git commit -m "Your commit message" → Commit staged changes
+git push origin main → Push committed changes to GitHub
+git pull origin main → Pull the latest changes from the main branch
+shopify theme push → Upload local theme changes to Shopify
+
+3. Shopify Theme Architecture
+✅ Layout (theme.liquid) - The main structure of every page
+✅ Templates (.json/.liquid) - Defines the structure of specific pages (home, product, etc.)
+✅ Sections (.liquid) - Modular components that templates load
+✅ Blocks - Elements inside sections (text, buttons, images)
+✅ Theme settings (settings_schema.json) - Controls global theme options like colors and fonts
+
+4. Key Concepts & Notes
+Templates load all sections
+Sections appear only when their template is called
+You can have multiple page templates with different layouts
+Blocks are only used inside sections
+TL;DR = "Too long; didn't read" (a quick summary of important details)
